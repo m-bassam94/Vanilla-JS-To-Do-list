@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Local Storage Tutorial</title>
+	<style>
+		body {
+			margin: 100px auto;
+			text-align: center;
+		}
+
+		.tdl-list {
+			border: 1px solid #009688;
+			border-radius: 2px;
+			width: 30%;
+			color: #009688;
+			text-align: left;
+			padding: 10px;
+		}
+
+		div {
+			margin: 20px auto;
+		}
+
+		.remove {
+			float: right;
+			color: red;
+		}
+
+		#toDoTasks li {
+			list-style-type: none;
+		}
+
+		#doneTasks li {
+			list-style-type: none;
+		}
+
+		span {
+			width: 60px;
+			height: 5px;
+			margin: 5px;
+			display: inline-block;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div id="tdl">
+		<div id="tdl-header">
+			<input type="text" id='new-task' placeholder="Enter new task">
+			<button id="add-task">add</button>
+		</div>
+		<div class="tdl-list">
+			<ul id="toDoTasks">
+				<h4>To-Do-Tasks</h4>
+			</ul>
+		</div>
+		<div class="tdl-list">
+			<ul id="doneTasks">
+				<h4>Done-Tasks</h4>
+			</ul>
+		</div>
+
+	</div>
+	<script src="to-do-list.js"></script>
+</body>
+
+</html>
